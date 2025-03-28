@@ -1,0 +1,1 @@
+ ga ngerti,ini kan bagian php yg kaya di codingan pesbuk

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-image: url("../img/bg_pixel1.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 20px;
+    height: auto;
+}
+.container {
+    max-width: 400px;
+    margin: auto;
+    background: rgba(139, 18, 239, 0.8); 
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.container:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.7);
+}
+h2 {
+    text-align: center;
+}
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+input, select {
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.checkout-btn {
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+.checkout-btn:hover {
+    background-color: #6d45ca;
+    transform: scale(1.1);
+}
+.back-button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px 15px;
+    color: white;
+    background-color: #dc3545;
+    text-decoration: none;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    }
+    
+    .back-button:hover {
+    background-color: #a71d2a;
+    }
